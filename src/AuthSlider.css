@@ -1,0 +1,110 @@
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f3f3f3;
+  font-family: sans-serif;
+}
+
+.auth-box {
+  width: 800px;
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(196, 32, 11, 0.1);
+}
+
+.auth-form, .auth-side {
+  flex: 1;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.auth-form {
+  background-color: #fff;
+}
+
+.auth-side {
+  background-color: rgb(124, 195, 43);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 12px;
+  background: rgb(124, 195, 43);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.auth-form p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.auth-form span {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.login-btn {
+  background: #78d30f;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.forgot {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 1.5rem;
+}
+
+.social-icons i {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #c87070;
+  cursor: pointer;
+}

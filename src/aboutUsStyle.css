@@ -1,0 +1,29 @@
+.about-container {
+  text-align: center;
+  margin: 100px auto;
+  padding: 40px;
+  width: 60%;
+  background: linear-gradient(-45deg, #e3f2fd, #fce4ec, #f3e5f5, #e8f5e9);
+  background-size: 400% 400%;
+  animation: gradientFlow 10s ease infinite;
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+
+@keyframes gradientFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.about-container h1 {
+  font-size: 3rem;
+  color: #4a148c;
+  text-shadow: 0 0 5px #864a5e, 0 0 10px #f50057;
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

@@ -1,0 +1,99 @@
+.chocolate-wrapper {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  background-color: #fffaf5;
+  width: 100vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.chocolate-container {
+  width: 260px;
+  position: sticky;
+  top: 20px;
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.chocolate-container h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #662f05;
+  border-bottom: 2px solid #d19d75;
+  padding-bottom: 8px;
+}
+
+.chocolate-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #333;
+}
+
+.chocolate-container button {
+  margin-top: 15px;
+  background-color: #541e03;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.chocolate-products {
+  flex: 1;
+}
+
+.chocolate-products ol {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 25px;
+  padding: 0;
+  list-style: none;
+}
+
+.chocolate-Cart {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chocolate-Cart:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.chocolate-Image {
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.chocolate-pagination-controls {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.chocolate-pagination-controls button {
+  margin: 0 4px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ee9149;
+  cursor: pointer;
+}
+
+.chocolate-pagination-controls .active-page {
+  background-color: #602504;
+  color: white;
+}

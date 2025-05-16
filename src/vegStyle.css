@@ -1,0 +1,122 @@
+/* Animations */
+@keyframes slideUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInDown {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Main wrapper */
+.veg-wrapper {
+  padding-top: 900px; /* Prevent overlap with fixed navbar */
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f1fdf4; /* Light green background */
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  animation: fadeIn 0.8s ease-in;
+}
+
+/* Heading */
+.veg-wrapper h1 {
+  font-size: 36px;
+  color: #2e7d32; /* Dark green */
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+
+  animation: slideInDown 0.6s ease-out;
+}
+
+/* Container for each vegetable item */
+.veg-Cart {
+  display: inline-block;
+  width: 240px;
+  margin: 20px;
+  padding: 20px;
+  background: #e8f5e9; /* Soft green card */
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+
+  animation: slideUp 0.5s ease-in-out;
+}
+
+/* Hover green glow effect */
+.veg-Cart:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(46, 125, 50, 0.3); /* green glow */
+  background-color: #d0f0d8;
+}
+
+/* Vegetable image */
+.veg-Image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Product name */
+.veg-Cart h3 {
+  font-size: 20px;
+  color: #1b5e20;
+  margin: 1px 0;
+}
+
+/* Product price */
+.veg-Cart p {
+  font-size: 16px;
+  color: #388e3c;
+  margin-bottom: 15px;
+}
+
+/* Add To Cart button */
+.veg-Cart button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #66bb6a;
+  color: white;
+  border: none;
+  border-radius: 50px; /* Oval shape */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.veg-Cart button:hover {
+  background-color: #388e3c;
+}
+
+/* Optional: Highlight veg menu in navbar */
+.nav-link.veg {
+  box-shadow: 0 4px 10px rgba(102, 187, 106, 0.7);
+  filter: brightness(1.2);
+  font-weight: bold;
+  border: 2px solid #388e3c;
+}
