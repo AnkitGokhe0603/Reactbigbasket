@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import './OrderStyle.css'; // Scoped stylesheet
+import './orderStyle.css'; // Scoped stylesheet
 
 function Order() {
   // Get all placed orders from Redux state
