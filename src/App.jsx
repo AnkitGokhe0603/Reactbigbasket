@@ -6,12 +6,12 @@ import NotFound from './NotFound'; // ✅ Proper import
 import Veg from './Veg';
 import Home from './Home';
 import Chocolate from './Chocolate';
-import ContactUs from './contactUs';
+import ContactUs from './ContactUs';
 import Order from './order';
-import Signing from './signing';
+import Signing from './Signing';
 import AboutUs from './AboutUs';
 import Cart from './Cart';
-import Milk from './milk';
+import Milk from './Milk';
 import NonVegItems from './NonVegItems';
 import { useSelector } from 'react-redux';
 
