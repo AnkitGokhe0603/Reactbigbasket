@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import './Color.css';
-
+import './NotFound';
 import Veg from './Veg';
 import Home from './home';
 import Chocolate from './Chocolate';
@@ -50,6 +50,7 @@ function App() {
       <Route path='/Signing' element={<Signing />} />
       <Route path='/AboutUs' element={<AboutUs />} />
       <Route path='/ContactUs' element={<ContactUs />} />
+      <Route path='/*' element={<NotFound />}
     </Routes>
   </div>
 </BrowserRouter>
