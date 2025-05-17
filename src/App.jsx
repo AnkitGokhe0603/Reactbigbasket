@@ -7,7 +7,7 @@ import Veg from './Veg';
 import Home from './Home';
 import Chocolate from './Chocolate';
 import ContactUs from './ContactUs';
-import Order from './order';
+import Order from './Order';
 import Signing from './Signing';
 import AboutUs from './AboutUs';
 import Cart from './Cart';
