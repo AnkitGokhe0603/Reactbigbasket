@@ -4,7 +4,7 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import './Color.css';
 import NotFound from './NotFound'; // ✅ Proper import
 import Veg from './Veg';
-import Home from './home';
+import Home from './Home';
 import Chocolate from './Chocolate';
 import ContactUs from './contactUs';
 import Order from './order';
